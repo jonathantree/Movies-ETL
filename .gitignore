@@ -1,4 +1,4 @@
-#/c/Users/jonat/UO_Bootcamp/Mod8/git_Movies_ETL/Movies-ETL/Resources/Downloaded/archive/*
+/c/Users/jonat/UO_Bootcamp/Mod8/git_Movies_ETL/Movies-ETL/Resources/Downloaded/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
