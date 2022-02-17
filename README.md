@@ -1,2 +1,9 @@
 # Movies-ETL
-ETL using Pandas and PostgreSQL of movie data
+## Project Overview
+## Resources:
+- Software:
+- Data: 
+
+## Code Snippets:
+
+
