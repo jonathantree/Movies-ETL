@@ -69,7 +69,7 @@ def clean_movie(movie):
 
     return movie
 ```
-### Python Function to Clean/Parse data, Merge DataFrames, and push the SQL database
+### Python Function to Clean/Parse data, Merge DataFrames, and Push to the SQL database
 
 ```Python
 # 1 Add the function that takes in three arguments;
@@ -342,5 +342,7 @@ def extract_transform_load():
     return wiki_movies_df, movies_with_ratings_df, movies_df
 ```
 ## Postgres Database
+### *ratings_db must be dropped each time it is uploaded because it is built by appending 1,000,000 chucksizes at a time, so the `if_exists='replace'` command cannot be used to replaced this table*
+
 ![Movies_DB](/Resources/movies_query.png)
 ![Ratings_DB](/Resources/ratings_query.png)
